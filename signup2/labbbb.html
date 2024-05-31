@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+    <link href="labb.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://i.pinimg.com/736x/88/6e/60/886e60309d7f47bf29d69e28dad41f01.jpg" rel="shortcut icon"
+          type="image/x-icon"/>
+    <title>Registration or Login</title>
+</head>
+<body>
+<div class="container">
+    <div class="forms">
+        <div class="form login">
+            <span class="title">Login</span>
+            <form action="#">
+                <div class="input-field">
+                    <input placeholder="Enter your email" required type="email">
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input class="password" placeholder="Enter your password" required type="password">
+                    <i class="uil uil-lock icon"></i>
+                    <i class="uil uil-eye-slash showHidePw"></i>
+                </div>
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input id="logCheck" type="checkbox">
+                        <label class="text" for="logCheck">Remember me</label>
+                    </div>
+                    <a class="text" href="#">Forgot password?</a>
+                </div>
+                <div class="input-field button">
+                    <input type="button" value="Login">
+                </div>
+            </form>
+            <div class="login-signup">
+                    <span class="text">Not registered yet?</span>
+                        <a class="text signup-link" href="#">Signup Now</a>
+                    </span>
+            </div>
+        </div>
+        <div class="form signup">
+            <span class="title">Registration</span>
+            <form action="#">
+                <div class="input-field">
+                    <input placeholder="Enter your name" required type="text">
+                    <i class="uil uil-user"></i>
+                </div>
+                <div class="input-field">
+                    <input placeholder="Enter your email" required type="text">
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input class="password" placeholder="Create a password" required type="password">
+                    <i class="uil uil-lock icon"></i>
+                </div>
+                <div class="input-field">
+                    <input class="password" placeholder="Confirm a password" required type="password">
+                    <i class="uil uil-lock icon"></i>
+                    <i class="uil uil-eye-slash showHidePw"></i>
+                </div>
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input id="termCon" type="checkbox">
+                        <label class="text" for="termCon">I accepted all terms and conditions</label>
+                    </div>
+                </div>
+
+                <div class="input-field button">
+                    <input type="button" value="Signup">
+                </div>
+            </form>
+
+            <div class="login-signup">
+                    <span class="text">Already registered?</span>
+                        <a class="text login-link" href="#">Login Now</a>
+                    </span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="labb.js"></script>
+</body>
+</html>
+
